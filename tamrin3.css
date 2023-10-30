@@ -1,0 +1,31 @@
+p{
+    color: rgb(108, 79, 47);
+}
+.img{
+    width: auto;
+    height: auto;
+}
+h1, h2, h3{background-color: rgb(229, 229, 198);}
+main > div > div{color: rgb(0, 0, 0);}
+footer div{color: rgb(56, 52, 12); }
+footer div a{background-color: rgb(227, 225, 150); color: rgb(160, 160, 10);}
+h2 + p{
+    color: rgb(199, 180, 2);
+}
+h2 + p + p{
+    color: rgb(135, 124, 2);;
+}
+h2 + p + p + p{
+    color: rgb(84, 77, 2);
+}
+main pre{
+    padding-right:700px ;
+}
+main h3 ~ pre{
+    padding-right:1000px ;
+}
+
+main h3 + pre{
+    padding-right:300px ;
+}
+

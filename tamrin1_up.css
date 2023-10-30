@@ -1,0 +1,33 @@
+pre{
+    color: rgb(95, 62, 13);
+    background-color: rgb(202, 195, 117);
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-right: 80px;
+    border: 5px;
+    border-left-style: solid;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-color: rgb(85, 48, 12, .5);
+
+}
+.test{
+    background-color: rgb(228, 200, 129);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 1px;
+    border-radius: 5px;
+}
+.start{
+    border-radius: 8px;
+    border-style: dotted dashed ridge solid;
+}
+
+p{
+    color: rgb(108, 79, 47);
+}
+.img{
+    width: auto;
+    height: auto;
+}

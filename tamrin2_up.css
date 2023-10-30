@@ -1,0 +1,25 @@
+table{
+    border: 5px dashed rgb(78, 10, 99);
+  }
+  th, td{
+    border: 5px solid rgb(78, 10, 99);  
+  }
+
+  h4{
+      color: rgb(100, 8, 186);
+      background-color: rgb(142, 114, 169);
+      border: 5px;
+      padding: 8px;
+      margin: 6px;
+      border-style: solid;
+      border-left-color: rgb(222, 205, 222);
+      border-right-color: rgb(219, 153, 219);
+      border-top-color: rgb(195, 65, 195);
+      border-bottom-color: rgb(137, 9, 137);
+  }
+  #test{
+      color: rgb(112, 84, 138);
+  }
+  td{
+      color: rgb(78, 15, 136);
+  }
