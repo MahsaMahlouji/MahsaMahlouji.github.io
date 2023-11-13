@@ -1,0 +1,33 @@
+
+footer > div > h3{
+    color: rgb(244, 158, 30);
+}
+div > h3{
+    color: rgb(244, 158, 30);
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    display: flex;
+}
+
+div {
+    font-style: oblique;
+}
+@media print {
+    body { font-size: 15px; }
+    p{font-style: normal;}
+    }
+    @media screen {
+        body { font-size: 16px; }
+    }  
+    @media screen, print {
+        body{color: black;}
+    }
+
+

@@ -1,0 +1,42 @@
+.img3{
+    padding-right: 300px;
+    border-radius: 20px;
+    border-color: rgb(245, 226, 185);
+}
+.img4{
+    padding-right: 300px;
+    border-radius: 20px;
+    border-color: rgb(245, 226, 185);
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4:nth-of-type(2n+1){color: rgb(186, 140, 72);}
+h4:nth-of-type(2n){color: rgb(187, 163, 132);}
+
+@media print {
+    body { font-size: 15px; }
+    p{font-style: normal;}
+    }
+    @media screen {
+        body { font-size: 16px; }
+    }  
+    @media screen, print {
+        body{color: black;}
+    }
+
+@media (monochrome) {
+    li.mono {
+        display: block;
+        color: #333;
+    }
+}
+div {
+    font-style: oblique;
+}
+
+
+

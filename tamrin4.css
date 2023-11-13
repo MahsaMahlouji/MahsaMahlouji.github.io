@@ -1,0 +1,76 @@
+.page-title{
+    color: black;
+    text-align: center;
+    border: 10px;
+    border-radius: 5px;
+    border-color: rgb(220, 181, 130);
+    background-color: #ecc48f;
+    margin-bottom: 10px;
+    padding: 8px;
+    padding-bottom: 12px;
+    border-left-style: solid;
+    border-top-style: dashed;
+    border-right-style: solid;
+    border-bottom-style: dashed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.img{
+    padding-right: 300px;
+    border-radius: 20px;
+    border-color: rgb(225, 176, 69);   
+}
+a[href="http://www.maryamskin.ir/fa/newsview/405#:~:text=%D9%85%D9%84%D8%A7%D9%86%DB%8C%D9%86%20%DA%86%DB%8C%D8%B3%D8%AA%D8%9F&text=%D8%B1%D9%86%DA%AF%20%D9%85%D9%88%D9%87%D8%A7%20%D9%82%D8%A8%D9%84%20%D8%A7%D8%B2%20%D8%A8%DB%8C%D8%B1%D9%88%D9%86,%D8%B7%D8%A8%DB%8C%D8%B9%DB%8C%20%D8%A8%D9%87%20%D9%85%D9%88%D9%87%D8%A7%DB%8C%20%D8%B4%D9%85%D8%A7%20%D9%85%DB%8C%E2%80%8C%D8%A8%D8%AE%D8%B4%D8%AF."]{
+    color: #6e4004;
+    background-color: #ecae5d;
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@font-face {
+    font-family: "myFont";
+    src: url("myFont.woff2");
+}
+html{
+    font-family: "myFont", "Bitstream Vra Srif", Serif;
+}
+.teest{
+    display: grid;
+    padding-right: 30%;
+    background-color: #ecc48f;
+}
+@media print {
+    body { font-size: 15px; }
+    p{font-style: normal;}
+    }
+    @media screen {
+        body { font-size: 16px; }
+    }  
+    @media screen, print {
+        body {color: black;}
+    }
+    @media only screen
+    and (min-width: 320px)
+    and (max-width: 480px)
+    and (resolution: 150dpi) {
+        body { line-height: 1.4; }
+    }
+
+    
+    @media (color) {
+        p {
+            color: rgb(144, 96, 6);
+        }
+        p {
+            display: inline;
+        }
+    }
+    div {
+        font-style: oblique;
+    }
+
+
+
