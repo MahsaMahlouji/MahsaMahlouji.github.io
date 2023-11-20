@@ -38,3 +38,34 @@ div {
     @media screen, print {
         body{color: black;}
     }
+    .grid-container1 {
+        display: grid;
+        gap: 50px 50px;
+        grid-template-columns: auto auto auto;
+        background-color: #ffe9a2;
+        padding: 10px;
+      }
+      
+      .grid-item {
+        background-color: rgba(247, 248, 219, 0.8);
+        border: 1px solid rgba(238, 227, 227, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+      .grid-container3{
+        display: grid;
+        height: 300px;
+        align-content: space-around;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+        background-color: #f4ff7b;
+        padding: 10px;
+      }
+      
+      .grid-container3 > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
