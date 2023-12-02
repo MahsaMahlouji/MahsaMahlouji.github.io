@@ -35,6 +35,10 @@
         </ol>
     </div>
 </div>
+
+
+
+
 <div >
     <h3>ظرف مسی اصل را می‌توانید به روش‌های مختلفی تشخیص دهید. این روش‌ها عبارتند از:</h3>
     <dl>
@@ -43,6 +47,43 @@
         <dt>تفاوت وزن ظروف مسی تقلبی و اصل</dt>
         <dd>بهتر است ابتدا چند ظرف را که از اصل بودن آن‌ها مطمئن هستید از نظر وزن بررسی کنید. این بررسی معیاری را به شما می‌دهد تا در صورت سبک بودن بیش از حد یک ظرف تقلبی بودن آن را تشخیص دهید</dd>
 </dl>
+
+<h3>بعضی از عوامل می‌توانند احتمال ابتلا به کمبود مس را افزایش دهند</h3>
+<div class="example">
+    مشکل در جذب مس
+</div>
+<br>
+<div class="example">
+    مصرف بیش از حد مکمل‌های زینک یا ویتامین ث
+</div>
+
+<p class="example">
+    ابتلا به بعضی از بیماری‌ها از جمله التهاب عصب چشم و آسیب حاد نخاعی (میلوپاتی)
+</p>
+
+<script>
+const collection = document.getElementsByClassName("example");
+for (let i = 0; i < collection.length; i++) {
+  collection[i].style.backgroundColor = "rgb(225, 176, 69)";
+}
+</script>
+
+<div>
+    <p>ساخت یک p element و اضافه کردن به mydiv:</p>
+    <div id="myDIV" style="padding:16px;background-color:lightgray">
+    <h3>A DIV element</h3>
+</div>
+
+<script>
+// Create element:
+const para = document.createElement("p");
+para.innerHTML = "This is a paragraph.";
+
+// Append to another element:
+document.getElementById("myDIV").appendChild(para);
+</script>
+</div>
+
 
 </div>
 <div class="grid-container1" dir="ltr">
@@ -64,7 +105,29 @@
     <div>4</div>
     <div>5</div>
     <div>6</div>  
-  </div>
+</div>
+
+
+<div>
+    <h3 id="script" dir="rtl">کلام اخر</h3>
+    <h4 id = "script2">
+        مس یک ماده‌ی معدنی است که فواید متعددی برای سلامتی بدن دارد. تولید انرژی در بدن، پیشگیری یا به تأخیر انداختن آرتریت، جلوگیری از پوکی استخوان، کمک به سوخت‌وساز و بهبود سلامت قلبی و عروقی از جمله خواص مس محسوب می‌شوند. 
+    </h4>
+    <script>
+        document.getElementById("script").style.color = "rgb(225, 176, 69)";
+        document.getElementById("script2").style.fontFamily = "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif";
+    </script>
+</div>
+<h2>The onclick Event</h2>
+
+<h3 onclick="myFunction(this, 'red')">برای تغییر رنگ کلیک کن</h3>
+
+<script>
+function myFunction(element, color) {
+  element.style.color = color;
+}
+</script>
+
 
 
     </body>

@@ -34,6 +34,7 @@
     <img src="./Clean-Brass-Utensils.jpg" width="800" height="500" style="border:5px solid rgb(249, 239, 207)" >
 </div>
 
+
 <div class="mono">
     <h3>ده راه برای تمیز کردن ظروف مسی</h3>
     <p class="mono">1 از ماست استفاده کنید</p> 
@@ -55,6 +56,21 @@
     <h3>بهترین روش برای جلوگیری از کدر شدن مس</h3>
     <p>برای جلوگیری از کدر شدن ظروف مسی می توانید بعد از تمیز کردن آن، سطح ظرف را با مقداری روغن بچه با روغن معدنی تمیز کنید. این کار از کدر شدن دوباره مس جلوگیری می کند. توجه داشته باشید که این کار را باید بعد از اینکه ظرف مسی شما کاملا تمیز و خشک شد انجام دهید. قرار دادن یک لایه روغنی روی مس جلوی ورود هوا را می گیرد و موجب می شود ظرف مسی شما تا مدت زمان بیشتری براق و تمیز باشد.</p>
 </div>
+
+<div dir="rtl">
+    <h3>انجام سفیدگری مس</h3>
+    <pre>سفارش سفیدگری مس</pre>
+  </div>
+  
+  <p dir="rtl">برای انجام سفارش کلیک کنید</p>
+  <button onclick="myFunction()">کلیک کن :)</button>
+  <script>
+  function myFunction() {
+    var x = document.querySelector("div > pre");
+    x.style.backgroundColor = "red";
+  }
+  </script>
+
 <div class="grid-container1" dir="ltr">
     <div class="item1">Header</div>
     <div class="item2">Menu</div>
@@ -65,6 +81,35 @@
 
 <div>
     <button onclick="window.print()">Print this page</button>
+</div>
+<div>
+    <h2>The JavaScript <i>this</i> Keyword</h2>
+<h3>تهیه کننده :</h3>
+
+<p id="demo"></p>
+
+<script>
+const person = {
+  firstName: "مهسا",
+  lastName: "محلوجی",
+  sh: ":)",
+  id: 5566,
+  fullName : function() {
+    return this.sh + " " + this.firstName + " " + this.lastName;
+  }
+};
+document.getElementById("demo").innerHTML = person.fullName();
+</script>
+</div>
+
+<div>
+    <h1 id="id01">پایان :)</h1>
+    <p id="id02"></p>
+
+    <script>
+    document.getElementById("id02").innerHTML = document.getElementById("id01").childNodes[0].nodeValue;
+
+    </script>
 </div>
 
     </body>

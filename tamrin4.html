@@ -3,7 +3,8 @@
         <title>0فروشگاه اینترنتی خرید و فروش ظروف مسی</title> 
         <link rel="stylesheet"  media="screen"  href="./tamrin4.css">
         <style type="text/css">
-            
+
+
 table{
  width:50%;
  border-collapse: separate;
@@ -46,6 +47,13 @@ li.italic{font-style: italic;}
         <div class="img">
             <img src="./Properties-of-copper-for-the-body.jpg" width="800" height="500" style="border:15px solid rgb(235, 225, 188)" >
         </div>
+        <h2>The onclick Event</h2>
+
+<p>Click to display the time.</p>
+
+<button onclick="getElementById('demo').innerHTML=Date()">ساعت و تاریخ؟؟</button>
+
+<p id="demo"></p>
 
         <div>
         <h3> کمبود مس <abr title="cuprum"><sup>(cu)</sup></abr>در بدن چیست؟ </h3>
@@ -69,6 +77,12 @@ li.italic{font-style: italic;}
                     <li class="italic"><p>زخم های پوستی</p></li> 
                     <li class="italic"><p>درد عضلانی غیر قابل توضیح</p></li> 
                 </ul>
+                <p>تعداد عناصر گفته شده :</p>
+                <p id="demo"></p>
+                <script>
+                const collection = document.getElementsByTagName("li");
+                document.getElementById("demo").innerHTML = collection.length;
+                </script>
             </div>
         <div>
         <h3>کمبود مس و تاثیرات روی مو </h3>
@@ -94,6 +108,22 @@ li.italic{font-style: italic;}
                     </tr>
                    </table>
         </div>
+        <div>
+        <h2>The onclick Event</h2>
+        
+        <p>The onclick event </p>
+        <p>Click and that will output "Hello World":</p>
+        
+        <button onclick="myFunction()">Click me</button>
+        
+        <p id="deo"></p>
+        
+        <script>
+        function myFunction() {
+          document.getElementById("deo").innerHTML = "Hello World";
+        };
+        </script>
+        </div>
         <main>
         <div>
         <h3>شایع ترین عوارض کمبود مس در بدن</h3>
@@ -107,6 +137,19 @@ li.italic{font-style: italic;}
         <p>آتاکسی از دست دادن کنترل حرکات بدن است. این با سطوح پایین این ماده اتفاق می افتد زیرا سیستم عصبی فرد تحت تأثیر قرار می گیرد. </p>
         </div>
     </main>
+    <div>
+    <h2>The onclick Event</h2>
+    
+    <p id="dm" onclick="myFunction()">کلیک کن</p>
+    
+    <script>
+    function myFunction() {
+      document.getElementById("dm").innerHTML = "YOU CLICKED ME!";
+    }
+    </script>
+    </div>
+
+
   
     <div class="grid-container2" dir="ltr">
         <div class="item1">1</div>
@@ -127,6 +170,22 @@ li.italic{font-style: italic;}
         <div>5</div>
         <div>6</div>  
       </div>
+      <h2>The onclick Event</h2>
+
+      <p>نمایش منو</p>
+      
+      <div class="dropdown">
+        <button id="myBtn" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#home">خانه</a>
+          <a href="#about">درباره ما</a>
+          <a href="#contact">مخاطب</a>
+        </div>
+      </div>
+      
+
+
+
       
 
     </body>
